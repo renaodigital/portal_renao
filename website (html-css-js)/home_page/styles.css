@@ -153,7 +153,7 @@
     height: 3px;
     margin: 5px auto;
     transition: all 0.3s ease-in-out;
-    background: #fff;
+    background: #000;
 }
 
 .navbar__item {
@@ -213,15 +213,16 @@
 }
 
 .hero__container {
+    background: #000;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 1200px;
+    justify-content: right;
+    align-items: right;
+    max-width: 100%;
     margin: 0 auto;
     height: 90%;
-    text-align: center;
-    padding: 30px;
+    text-align: right;
+    padding: 100px;
 }
 
 .hero__heading {
@@ -277,7 +278,7 @@
 
 /* About Section */
 .main {
-    background-color: #131313;
+    background-color: #000000;
     padding: 10rem 0;
 }
 
@@ -301,7 +302,7 @@
 
 .main__content h1 {
     font-size: 2rem;
-    margin-left: 5%;
+    margin-left: 30%;
     background-color: #fe3b6f;
     background-image: linear-gradient(to top, #ff087b 0%, #ed1a52 100%);
     background-size: 100%;
@@ -316,7 +317,7 @@
 .main__content h2 {
     font-size: 4rem;
     margin-top: -1%;
-    margin-left: 5%;
+    margin-left: 30%;
     margin-bottom: 1%;
     background: #da22ff;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #9114ff, #da22ff);  
@@ -332,11 +333,11 @@
 
 .main__content p {
     margin-top: 0,7%;
-    margin-left: 5%;
+    margin-left: 30%;
 }
 
 .main__content button {
-    margin-left: 5%;
+    margin-left: 30%;
 }
 
 .main__btn {
@@ -354,3 +355,51 @@
     transition: all 0.35s;
     outline: none;
 }
+
+.main__btn a {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-decoration: none;    
+}
+
+.main__btn:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: all 0.35s;
+    border-radius: 4px;
+}
+
+.main__btn:hover {
+    color: #fff;   
+}
+
+.main__btn:hover:after {
+    width: 100%;
+}
+
+.main__img--container {
+    text-align: center;  
+}
+
+.main__img--card {
+    margin: 10px;
+    height: 500px;
+    width: 500px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);    
+}
+
+.uil-layer-group, 
+.uil-users { 
+    font-size: 14rem;
+}
+
