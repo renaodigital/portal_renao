@@ -213,7 +213,7 @@
 }
 
 .hero__container {
-    background: #000;
+    background-image: url('./images/_MG_0172.jpg');
     display: flex;
     flex-direction: column;
     justify-content: right;
@@ -398,8 +398,32 @@
     background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);    
 }
 
+.profile-photo {
+    width: 10%;
+    height: 40%;
+    border-radius: 50%;
+}
+
+
 .uil-layer-group, 
 .uil-users { 
     font-size: 14rem;
 }
 
+#card-2 {
+    background: #ff512f;
+    background:  -webkit-linear-gradient(to right, #dd2476,#ff512f);
+    background:  linear-gradient(to right, #dd2476,#ff512f, #833ab4);
+}
+
+/* Mobile Responsive */
+@media screen and(max-width: 1100px) {
+    .main__container {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+        height: 90%;
+    }
+}

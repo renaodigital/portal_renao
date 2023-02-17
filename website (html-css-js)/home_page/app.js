@@ -7,4 +7,4 @@ const mobileMenu = () => {
     menuLinks.classList.toggle('active');
 }
 
-menu.addEventListener('click', mobileMenu);
+    menu.addEventListener('click', mobileMenu);
