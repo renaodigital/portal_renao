@@ -225,6 +225,16 @@
     padding: 100px;
 }
 
+.hero__container img {
+    margin: 10px;
+    height: 500px;
+    width: 500px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
 .hero__heading {
     font-size: 100px;
     margin-bottom: 24px;
@@ -383,7 +393,10 @@
 }
 
 .main__img--container {
-    text-align: center;  
+    text-align: left;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
 }
 
 .main__img--card {
@@ -394,12 +407,13 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     color: #fff;
     background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);    
 }
 
 .uil-layer-group, 
-.uil-users { 
+.uil-nerd { 
     font-size: 14rem;
 }
 
@@ -583,3 +597,17 @@
     transition: 0.3s ease-in;
     cursor: pointer;
 }
+
+@media screen and (max-width: 1300px) {
+    .whatimdoing__wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .whatimdoing__wrapper {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Footer CSS */
