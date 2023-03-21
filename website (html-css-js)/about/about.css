@@ -316,6 +316,12 @@
     width: 100%;    
 }
 
+.main__content h3{
+    align-items: left;
+    color: #fff;
+    width: 100%;    
+}
+
 /** Make the class for personalize or modify the HTML5 page and mensurate the tool
 .videoplayer{
     align-content: center;
@@ -441,9 +447,9 @@
     .main__container {
         display: grid;
         grid-template-columns: 1fr;
-        align-items: center;
+        align-items: left;
         width: 100%;
-        margin: 0 auto;
+        margin: left;
         height: 90%;
     }
     .main__img--container {
@@ -457,7 +463,7 @@
     }
 
     .main__content {
-        text-align: center;
+        text-align: left;
         margin-bottom: 4rem;
     }
 
