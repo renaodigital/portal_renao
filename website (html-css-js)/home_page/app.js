@@ -14,8 +14,8 @@ menu.addEventListener('click', mobileMenu);
 const highlightMenu = () => {
     const elem = document.querySelector('.highlight')
     const homeMenu = document.querySelector('#home-page')
-    const aboutMenu = document.querySelector('#about-page')
-    const whatimdoingnowMenu = document.querySelector('#portfolio-page')
+    const aboutMenu = document.querySelector('#manifesto_programming')
+    const whatimdoingnowMenu = document.querySelector('#manifesto_artandesign')
     let scrollPos = window.scrollY
     console.log(scrollPos);
 
