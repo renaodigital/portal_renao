@@ -39,18 +39,13 @@
 }
 
 #navbar__logo {
-    background-color: #ff8177;
-    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
     display: flex;
-    align-items: center;
     cursor: pointer;
-    text-decoration: none;
-    font-size: 2rem;
+}
+
+#navbar__logo img {
+    width: 30%;
+    height: 30%;
 }
 
 .navbar__menu {
@@ -620,13 +615,19 @@
     align-items: center;
 }
 
+
 #footer__logo {
-    color: #fff;
     display: flex;
-    align-items: center;
     cursor: pointer;
-    text-decoration: none;
-    font-size: 2rem;
+}
+
+#footer__logo img {
+    width: 30%;
+    height: 30%;
+}
+
+.footer__logo {
+    padding-left: 25px;  
 }
 
 .footer__links {
