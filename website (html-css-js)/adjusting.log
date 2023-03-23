@@ -6,11 +6,19 @@ adjusted by @renaodigital
 
 HTML5
 
+list (){
+    all files except about.html
+}
+
 <a href="/website (html-css-js)/home_page/index.html" class="navbar_logo"><img src="./images/logo.png" margin_height="5%" height="90%" width="90%"/></a>
 
 <a href="/website (html-css-js)/home_page/index.html" class="footer_logo"><img src="./images/logo.png" margin_height="5%" height="90%" width="90%"/></a>
 
 CSS5
+
+list (){
+    all files except about.css
+}
 
 #footer__logo {
     display: flex;
