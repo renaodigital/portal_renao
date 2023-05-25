@@ -6,17 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Renão | Digital Content + Entertainment</title>
     <link rel="stylesheet" href="/website/home_page/main/css/styles.css">
-    <link rel="stylesheet" href="/website/home_page/main/css/navbar.css">
-    <link rel="stylesheet" href="/website/home_page/main/css/footer.css">
-    <link rel="stylsheet" href="/website/home_page/main/css/whatimdoing.css">
-    <link rel="stylesheet" href="/website/about/main/css/mobile.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">    
 </head>
 <body>
     <!-- Navbar Section -->
     <nav class="navbar">
         <div class="navbar__container">
-            <a href="./index.html" id="navbar__logo">Renão</a>
+            <a href="/website/home_page/main/html/index.html" id="navbar__logo"><img src="/website/home_page/main/images/logo_header.png" alt="Logo do Renão"   /></a>
             <div class="navbar__toggle" id="mobile-menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -24,14 +20,15 @@
             </div>
             <ul class="navbar__menu">
                 <li class="navbar__item">
-                    <a href="/website/about/main/html/index_2.html" class="navbar__links" 
-                    id="about-page">About</a>
+                    <a href="/website/about/main/html/about.html" class="navbar__links" id="about-page">About</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="/website/manifestos_documentation/main/main_html/index_3.html" class="navbar__links" id="manifesto">Manifesto</a>
+                    <a href="/website/manifestos_documentation/main/html/manifesto.html" class="navbar__links" id="manifesto">Manifesto</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="https://renaodigital.substack.com/?utm_source=website_main&utm_medium=link&utm_campaign=phase1_develop&utm_id=portal_phase1" class="button" id="login"><b>Newsletter</b></a>
+                    <a 
+                    href="https://renaodigital.substack.com/?utm_source=substack&utm_medium=web&utm_campaign=substack_profile" 
+                    class="button" id="login"><b>Newsletter</b></a>
                 </li>
             </ul>
         </div>
@@ -54,7 +51,8 @@
                     <h1>Who can catch us?</h1>
                     <h2>Be moved by the power of knowledge</h2>
                     <p><a>Keep updated about what's going on Web2 and Web3</a></p>
-                    <button class="main__btn"><a href="#"><b>THE MANIFESTO</b></a></button>  
+                    <button class="main__btn" id="subscribe_link"><a 
+                    href="https://renaodigital.substack.com/?utm_source=substack&utm_medium=web&utm_campaign=substack_profile"><b>Subscribe</b></a></button>  
                 </div>
             </div>
         </div>        
@@ -66,36 +64,49 @@
     <div class="whatimdoing__wrapper">
         <div class="whatimdoing__card" id="1">
             <h2>Photography</h2>
-            <p>Street Photography <br>&</br> Authoral</p>
-            <div class="whatimdoing__btn"><button>Ready?</button></div>
+            <p>street + authoral</p></p>
+            <div class="whatimdoing__btn"><button>
+            Ready?
+            </button></div>
         </div>
         <div class="whatimdoing__card" id="2">
-            <h2>Visual Identity</a></h2>
-            <p>Branding, Institutional & Corporative</p>
-            <div class="whatimdoing__btn"><button>Ready?</button></div>
+            <h2>Social Media</a></h2>
+            <p>branding + identity</p>
+            <div class="whatimdoing__btn"><button>
+            Ready?
+            </button></div>
         </div>
         <div class="whatimdoing__card" id="3">
             <h2>Animation & Filmmaking</h2>
-            <p>DoP & Filmmaking</p>
-            <div class="whatimdoing__btn"><button>Ready?</button></div>
+            <p>directing + power moves</p>
+            <div class="whatimdoing__btn"><button>
+            Ready?
+            </button></div>
         </div>
         <div class="whatimdoing__card" id="4">
-            <h2>Content Creating & Growth Hacking</h2>
-            <p>Creating, Copywriting & Hacking </p>
-            <div class="whatimdoing__btn"><button>Ready?</button></div>
+            <h2>Growth Hacking</h2>
+            <p>copywriting + hacking</p>
+            <div class="whatimdoing__btn"><button>
+            Ready?
+            </button></div>
         </div>
     </div>
 </div>
 
 <!-- Features Section -->
 <div class="main" id="sign-up">
-    <div class="main" id="about">
-        <div class="main__content">
-                <h1>Who can catch us?</h1>
-                <h2>Be moved by the power of knowledge</h2>
-                <p><a>Keep updated about what's going on Web2 and Web3</a></p>
-                <button class="main__btn"><a href="#"><b>Subscribe</b></a></button>
-        </div>    
+    <div class="main__content">
+        <div class="main__img--container">
+            <div class="main__img--card"><i class="uil uil-analysis"></i></div>
+            <div class="text-container">
+                <h1>That's @renaodigital</h1>
+                <h2>That's my content</h2>
+                <p><a>& This is How We Do It</a></p>
+                <button class="main__btn" id="subscribe_link"><a 
+                href="/website/about/main/html/about.html"><b>About</b></a></button>  
+            </div>
+        </div>
+    </div>       
 </div>
 
 <!-- Footer Section -->
@@ -104,9 +115,9 @@
         <div class="footer__link-wrapper">
             <div class="footer__link--items">
                 <h2>About</h2>
-                <a href="/login">How it works</a>
-                <a href="/login">Testimonials</a> <a href="/login">What you've want?</a>
-                <a href="/login">Terms of Service</a>
+                <a href="#youtubelinkexplaining">How it works</a>
+                <a href="https://www.youtube.com/playlist?list=PLvTz7m5AVYb0W3KQE7ia8l3ymp5v7bjar">Testimonials</a> 
+                <a href="#pdf">Terms of Service</a>
             </div>
         </div>
         <div class="footer__link--wrapper">
@@ -114,7 +125,8 @@
                 <h2>Videos</h2>
                 <h2>Portfolio</h2>
                 <a href="https://renaofotografia.com/" target="_blank">Behance</a>
-                <a href="https://www.artstation.com/renaodigital" target="_blank">YouTube</a> <a href="/login">ArtStation</a>
+                <a href="https://www.artstation.com/renaodigital" target="_blank">YouTube</a> 
+                <a href="/login">ArtStation</a>
                 <a href="https://vimeo.com/renaodigital" target="_blank">Vimeo</a>
             </div>
             <div class="footer__link--items">
@@ -128,19 +140,19 @@
     <section class="social__networks">
         <div class="social__networks--wrap">
             <div class="footer__logo">
-                <a href="/" id="footer__logo">Renão</a>
+                <a href="/website/home_page/main/html/index.html" id="footer__logo" alt="Logo do Renão"><img src="/website/home_page/main/images/logo.png" /> </a>
             </div>
-            <p class="website__rights">₢ @renaodigital 2023. All rights reserved</p>
-            <div class="social__icons">
-                <a href="/" class="social__icon--link" target="_blank"
+                <p class="website__rights">₢ @renaodigital 2023. All rights reserved</p>
+                 <div class="social__icons">
+                <a href="https://https://www.facebook.com/renaodigital/" class="social__icon--link" target="_blank"
                 ><i class="uil uil-facebook"></i></a>
-                <a href="/" class="social__icon--link" target="_blank"
+                <a href="https://twitter.com/renaodigital" class="social__icon--link" target="_blank"
                 ><i class="uil uil-twitter"></i></a>
-                <a href="/" class="social__icon--link" target="_blank"
+                <a href="https://www.instagram.com/renaodigital/" class="social__icon--link" target="_blank"
                 ><i class="uil uil-instagram"></i></a>
-                <a href="/" class="social__icon--link" target="_blank"
+                <a href="https://www.youtube.com/renaodigi" class="social__icon--link" target="_blank"
                 ><i class="uil uil-youtube"></i></a>
-                <a href="/" class="social__icon--link" target="_blank"
+                <a href="https://www.linkedin.com/in/renaodigital/" class="social__icon--link" target="_blank"
                 ><i class="uil uil-linkedin"></i></a> 
             </div>
         </div>
